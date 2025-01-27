@@ -1,0 +1,15 @@
+{
+  "laptops": [
+    { "id": 1, "year": 2008, "cpu": "Intel Core Duo", "modelId": 1, "ram": 4, "storage": 128, "storage_type": "HDD", "screen": 13},
+    { "id": 2, "year": 2015, "cpu": "Intel Core M", "modelId": 1, "ram": 8, "storage": 256, "storage_type": "SSD", "screen": 12},
+    { "id": 3, "year": 2017, "cpu": "Intel Core i5", "modelId": 2, "ram": 8, "storage": 128, "storage_type": "SSD", "screen": 13},
+    { "id": 4, "year": 2020, "cpu": "Apple M1", "modelId": 2, "ram": 8, "storage": 256, "storage_type": "SSD", "screen": 13},
+    { "id": 5, "year": 2019, "cpu": "Intel Core i9", "modelId": 3, "ram": 16, "storage": 512, "storage_type": "SSD", "screen": 15},
+    { "id": 6, "year": 2023, "cpu": "Apple M3 Max", "modelId": 3, "ram": 36, "storage": 1024, "storage_type": "SSD" , "screen": 14}
+  ],
+  "models": [
+    { "id": 1, "name": "MacBook"},
+    { "id": 2, "name": "MacBook Air"},
+    { "id": 3, "name": "MacBook Pro"}
+  ]
+}
