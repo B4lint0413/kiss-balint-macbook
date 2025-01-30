@@ -14,7 +14,8 @@ export const useLaptop = defineStore('laptop-store', {
       this.rawLaptops = resp.data.data;
     },
     async getLaptop(id){
-      return await http.get(`/laptops/${id}?_expand=model`);
+      let resp = await http.get(`/laptops/${id}?_expand=model`);
+      return resp.data.data;
     },
     async createLaptop(laptop){
       let created = await http.post('/laptops?_expand=model', laptop); 

@@ -1,6 +1,6 @@
 <template>
   <BaseLayout>
-    <div>
+    <div class="m-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
       <BaseCard v-for="laptop of laptops" :laptop="laptop"/>
     </div>
   </BaseLayout>
